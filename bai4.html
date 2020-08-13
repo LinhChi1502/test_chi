@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BAI4</title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt("Mời nhập năm cần tra: "));
+        if (a % 4 == 0) {
+            if (a % 100 == 0) {
+                if (a % 400 == 0) {
+                    alert(a + " là năm nhuận!");
+                } else {
+                    alert(a + " không là năm nhuận!");
+                }
+            } else {
+                alert(a + " là năm nhuận!");
+            }
+        } else {
+            alert(a + " không phải năm nhuận!");
+        }
+    </script>
+</body>
+</html>
